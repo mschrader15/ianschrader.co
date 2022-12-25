@@ -1,0 +1,17 @@
+baseURL: "https://www.ianschrader.co"
+languageCode: "en-gb"
+title: "Ian's corner of Internet"
+theme: "gtf.io"
+sectionPagesMenu: "main"
+enableGitInfo: true
+buildDrafts: true
+params:
+  repo: "https://github.com/mschrader15/ianschrader.io"
+ignoreFiles:
+  - data/*
+  - _notes.md
+  - _notes/*
+markup:
+  highlight:
+    codefences: true
+    style: lovelace
